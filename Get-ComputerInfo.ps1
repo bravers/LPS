@@ -5,7 +5,7 @@
 $fpath = "ComputerInfo.txt"
 $isfile = Test-Path $fpath 
 if ($isfile){
-	Write-Host "Такой файл уже существует"
+	Write-Host "This file already exists."
 }
 else {
 	Set-InfoToFile | Out-File $fpath
