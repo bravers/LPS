@@ -1,0 +1,1 @@
+The scripts in this repository with the "example" prefix are taken from the MSDN documentation. Other scripts are copyrighted. Thank's for watch!
