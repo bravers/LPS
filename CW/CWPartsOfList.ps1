@@ -8,3 +8,18 @@
     }
     return $result
 }
+$a = "az", "toto", "picaro", "zone", "kiwi"
+part-list $a
+
+
+<#
+    $a="I", "wish", "I", "hadn't", "come"
+    $c="(I, wish I hadn't come)(I wish, I hadn't come)(I wish I, hadn't come)(I wish I hadn't, come)"
+    testing $a $c
+
+    $a = "cdIw", "tzIy", "xDu", "rThG"
+    $c = "(cdIw, tzIy xDu rThG)(cdIw tzIy, xDu rThG)(cdIw tzIy xDu, rThG)"
+    testing $a $c
+
+
+#>
